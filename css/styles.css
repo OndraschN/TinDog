@@ -3,21 +3,17 @@ body {
     text-align: center;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: "Montserrat", serif;
     font-weight: 900;
     font-style: normal;
-
 }
 
 p {
     color: #8f8f8f;
 }
+
+/* Headings */
 
 .big-heading {
     font-size: 3.5rem;
@@ -68,7 +64,7 @@ p {
     font-weight: 300;
 }
 
-/* Download Buttons */
+/* Buttons */
 
 .download-button {
     margin: 5% 3% 5% 0;
@@ -90,7 +86,7 @@ p {
     right: 23%;
 }
 
-/* Features */
+/* Features Section */
 
 #features {
     background-color: white;
@@ -98,11 +94,11 @@ p {
 }
 
 .feature-title {
-    line-height: 1.5;
+    line-height: 1.5rem;
 }
 
 .feature-box {
-    padding: 5%;
+    padding: 4.5%;
 }
 
 .icon {
@@ -116,7 +112,7 @@ p {
 
 }
 
-/* Testimonials */
+/* Testimonial Section */
 
 #testimonials {
     background-color: #ef8172;
@@ -147,14 +143,10 @@ p {
     margin: 20px 20px 50px;
 }
 
-/* Pricing */
+/* Pricing Section */
 
 #pricing {
     padding: 100px;
-}
-
-.pricing-column {
-    padding: 3% 2%;
 }
 
 .price-text {
@@ -162,11 +154,19 @@ p {
     line-height: 1.5;
 }
 
+.pricing-column {
+    padding: 3% 2%;
+}
+
 .card-header-text {
     font-size: 1.5rem;
 }
 
-/* footer */
+/* CTA Section */
+
+
+/* Footer Section */
+
 
 .social-icon {
     margin: 20px 10px;
@@ -174,6 +174,7 @@ p {
 
 
 @media (max-width: 1028px) {
+    
     #title {
         text-align: center;
     }
